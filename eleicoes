@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro idade
+	escreva(" ####Eleicoes 2024#####")
+	escreva("\nInforme sua idade: ")
+	leia(idade)
+	
+	se (idade< 16){
+		escreva("Você nao pode votar!!!!")
+	}senao se (idade < 18){
+		escreva("\nSeu voto é opcional!!!!")
+	}senao se (idade < 70){
+		escreva("\nSeu voto é obrigatório!!!!")
+	}senao
+	escreva("Seu foto é opcional!!!!")
+}
